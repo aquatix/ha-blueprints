@@ -10,6 +10,9 @@ blueprint:
     remote:
       name: Remote
       description: Switch remote to use
+      selector:
+        device:
+          integration: zha
 
     on_button_1_short:
       name: On button 1 - short
